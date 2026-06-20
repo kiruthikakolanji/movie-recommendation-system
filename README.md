@@ -55,7 +55,7 @@ A content-based movie recommendation system built on the **TMDB 5000 dataset**. 
   1. Finds a movie's index in the dataset
   2. Retrieves its similarity scores with all other movies
   3. Sorts by similarity (highest first) and returns the top 5 matches
-- Tested with `recommend('Avatar')` → returned relevant sci-fi/space movies ✅
+- Tested with `recommend('Avatar')` → returned relevant sci-fi/space movies 
 
 ### Step 10: Save the Model
 - Saved the cleaned dataset (`movies.pkl`) and similarity matrix (`similarity.pkl`) using `pickle`
@@ -128,4 +128,4 @@ python -m streamlit run app.py
 - Add search/filter by genre
 
 ## 👤 Author
-Kiruthika Kolanji – [LinkedIn Profile Link]
+Kiruthika Kolanji – [www.linkedin.com/in/kiruthika-kolanji-0148a8264]
