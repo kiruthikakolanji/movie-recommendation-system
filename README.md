@@ -3,8 +3,7 @@
 A content-based movie recommendation web app that suggests similar movies based on genre, keywords, cast, and crew — built step by step using Python, Pandas, Scikit-learn, and Streamlit.
 
 ## 🚀 Live Demo
-[Add your deployed app link here once deployed]
-
+[https://movie-recommendation-system-79gjs6uurctzjnkaxeqd25.streamlit.app/]
 ---
 
 ## 📌 Project Overview
