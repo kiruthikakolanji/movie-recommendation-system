@@ -47,3 +47,28 @@ python -m streamlit run app.py
 ```
 
 ## 📁 Project Structure
+movie-recommendation-system/
+
+├── app.py                  # Streamlit web app
+
+├── test.py                 # Model training script
+
+├── movies.pkl              # Cleaned movie data
+
+├── similarity.pkl.gz       # Compressed similarity matrix
+
+├── tmdb_5000_movies.csv    # Original dataset
+
+├── tmdb_5000_credits.csv   # Original dataset
+
+├── requirements.txt        # Dependencies
+
+└── README.md                # Project documentation
+
+## 🎯 Future Improvements
+- Add movie posters using TMDB API
+- Include collaborative filtering (user ratings)
+- Add search/filter by genre
+
+## 👤 Author
+Kiruthika Kolanji – [LinkedIn Profile Link]
