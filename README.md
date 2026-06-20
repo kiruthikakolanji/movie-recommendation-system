@@ -7,6 +7,12 @@ A content-based movie recommendation web app that suggests similar movies based 
 
 ---
 
+## 📌 Project Overview
+
+A content-based movie recommendation system built on the **TMDB 5000 dataset**. It combines each movie's storyline, genre, keywords, top cast, and director into a single profile, then uses **Cosine Similarity** to find and recommend the 5 most similar movies — all through an interactive Streamlit web app.
+
+---
+
 ## 🧠 Development Process — Step by Step
 
 ### Step 1: Setup & Get the Dataset
@@ -71,11 +77,14 @@ A content-based movie recommendation web app that suggests similar movies based 
 ---
 
 ## 🛠️ Tech Stack
-- **Python** – Core programming language
-- **Pandas** – Data merging, cleaning, and manipulation
-- **Scikit-learn** – CountVectorizer & Cosine Similarity
-- **Streamlit** – Web app interface
-- **Git & GitHub** – Version control and deployment
+
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Core programming language |
+| 🐼 Pandas | Data merging, cleaning, and manipulation |
+| 🤖 Scikit-learn | CountVectorizer & Cosine Similarity |
+| 🎈 Streamlit | Web app interface |
+| 🔧 Git & GitHub | Version control and deployment |
 
 ## 📊 Dataset
 [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) – 4,800+ movies with genres, keywords, cast, and crew information
@@ -102,17 +111,17 @@ python -m streamlit run app.py
 ```
 
 ## 📁 Project Structure
-```
-movie-recommendation-system/
-├── app.py                  # Streamlit web app
-├── test.py                 # Model training script
-├── movies.pkl              # Cleaned movie data
-├── similarity.pkl.gz       # Compressed similarity matrix
-├── tmdb_5000_movies.csv    # Original dataset
-├── tmdb_5000_credits.csv   # Original dataset
-├── requirements.txt        # Dependencies
-└── README.md               # Project documentation
-```
+
+| File | Description |
+|---|---|
+| 📄 `app.py` | Streamlit web app — UI and recommendation logic |
+| 📄 `test.py` | Model training script (data cleaning → similarity matrix) |
+| 📦 `movies.pkl` | Cleaned movie dataset (titles + tags) |
+| 📦 `similarity.pkl.gz` | Compressed cosine similarity matrix |
+| 📊 `tmdb_5000_movies.csv` | Original movie dataset |
+| 📊 `tmdb_5000_credits.csv` | Original cast & crew dataset |
+| 📋 `requirements.txt` | Python dependencies |
+| 📖 `README.md` | Project documentation |
 
 ## 🎯 Future Improvements
 - Add movie posters using the TMDB API
